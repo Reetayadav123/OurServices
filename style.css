@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+  background: linear-gradient(45deg, blueviolet,lightgreen);
+  height: 100%px; 
+  width: 100%px;
+}
+.box{
+    box-shadow: 0px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 40PX;
+    padding: 40px 150px;
+    box-sizing: border-box;
+}
+.cantainer{
+  height: 320px;
+  width: 310px;
+  background-color: #fff;
+  border: 3px solid rebeccapurple;
+  transform: scale(1.05);
+  padding: 20px;
+}
+.button{
+  height:25px;
+  width:5rem;
+  /* border: 2px solid white; */
+  margin-top: 25px;
+  margin-left: 60px;
+  background-color: black;
+  color: white;
+}
+.heading{
+  margin-bottom: 20px;
+}
+.head{
+  justify-content: center ;
+  text-align: center;
+}
